@@ -3,18 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <title>UK's Music Island</title>
+    <style>
+        h1 { text-align: center; 
+            border-bottom: 1px solid black;
+            margin: 0; padding: 20px; background-color: LightSlateGray;
+            color: white; font-weight: 50;}
+            
+       
+        body {margin: 0}
+        
+        div {padding-top:10px; padding-left: 10px;}
+        
+        .container {
+            justify-content: space-between;
+            flex-direction: column;
+             height: 100vh;
+            display: flex;}
+        .container .btn-holder {
+            justify-content: flex-end;
+            display: flex;}
+    </style>
 </head>
 <body>
-    <h1><a href="index.html">UK's Music Island</a></h1>
-    <h2>ballad</h2>
-    <a href="https://www.youtube.com/watch?v=uqQqnWfJyAA">
-    <img src="닐로 지나오다.JPG" 
-    width="200px"
-    height="200px"
-    alt="닐로-지나오다" 
-    title="닐로-지나오다"></a>
+    <h1>Ballad & K-pop</h1>
+    <div>
+        <iframe width="500" height="300" 
+        src="https://www.youtube.com/embed/uqQqnWfJyAA" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; 
+        encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe>
 
-
+        <iframe width="500" height="300" 
+        src="https://www.youtube.com/embed/-09V6ImAJSY" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; 
+        encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe>
+    </div>
     
+    <div class="container">
+        <div class="btn-holder">
+        
+        <a href="index.html"><button type="button">Home</button></a>
+    </div>
+  </div>    
+
 </body>
 </html>

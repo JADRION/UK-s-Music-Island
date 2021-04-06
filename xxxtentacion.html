@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <title>UK's Music Island</title>
     <style>
-        h1 { text-align: center; 
+        h1 {text-align: center; 
             border-bottom: 1px solid black;
             margin: 0; padding: 20px; background-color: LightSlateGray;
             color: white; font-weight: 50;}
-            
-       
+            a {text-decoration: none;}
+            a:link {color:black;}
+            a:visited {color:purple;}
+        h2 { text-align: center; margin: 0; padding-top: 5px;}
         body {margin: 0}
-        
-        div {padding-top:10px; padding-left: 10px;}
-        
+        .artist {border-right: 1px solid black; width: 140px;
+            text-align: center;}
+        div {padding-top:10px;}
+        #grid{display: grid; grid-template-columns: 1fr 5fr;
+        padding-top: 0;}
         .container {
             justify-content: space-between;
             flex-direction: column;
@@ -25,41 +29,49 @@
     </style>
 </head>
 <body>
-    <h1>Pop</h1>
-    <div>
+    <h1>XXXTENTACION</h1>
+    <div id="grid">
+        <div class="artist">
+            <div><a href="xxxtentacion.html">XXXTENTACION</a></div>
+            <div><a href="">Juice Wrld</a></div>
+            <div><a href="">Trippie redd</a></div>
+            <div><a href="">Post Malone</a></div>
+            <div><a href="">and others</a></div>
+        </div>
+
+        <div class="video">
+        <iframe width="500" height="300"
+        src="https://www.youtube.com/embed/FAucVNRx_mU" 
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; 
+        encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+
         <iframe width="500" height="300" 
-        src="https://www.youtube.com/embed/-Y9VtoPvtuM" 
+        src="https://www.youtube.com/embed/pgN-vvVVxMA" 
         title="YouTube video player" frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; 
         encrypted-media; gyroscope; picture-in-picture" 
         allowfullscreen></iframe>
 
         <iframe width="500" height="300" 
-        src="https://www.youtube.com/embed/vBy7FaapGRo" 
+        src="https://www.youtube.com/embed/8aaoYbPXOPs" 
         title="YouTube video player" frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; 
         encrypted-media; gyroscope; picture-in-picture" 
         allowfullscreen></iframe>
 
         <iframe width="500" height="300" 
-        src="https://www.youtube.com/embed/xXFdnHiGwos" 
+        src="https://www.youtube.com/embed/EhTH8OIPoY4" 
         title="YouTube video player" frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; 
         encrypted-media; gyroscope; picture-in-picture" 
         allowfullscreen></iframe>
-
-        <iframe width="500" height="300" 
-        src="https://www.youtube.com/embed/LHCob76kigA" 
-        title="YouTube video player" frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; 
-        encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen></iframe>
-        
-    </div>
-    
+        </div>
+</div>
     <div class="container">
         <div class="btn-holder">
-        
+        <a href="hip hop.html"><button type="button">Before</button></a>
         <a href="index.html"><button type="button">Home</button></a>
     </div>
   </div>    
